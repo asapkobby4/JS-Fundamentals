@@ -1,5 +1,5 @@
 const arg = process.argv[2];
-const num = parseint(arg);
+const num = parseInt(arg);
 if (!Isnan(num)) {
   console.log('My number: ' + num);
 } else {
