@@ -4,5 +4,5 @@ const num = parseint(arg);
 if (Isnan(num)) {
   console.log('Not a number');
 } else {
-  console.log(`My number: ${num}`);
+  console.log('My number: ' + num);
 }
